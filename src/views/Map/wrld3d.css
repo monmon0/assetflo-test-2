@@ -1,0 +1,15 @@
+.eegeo-indoor-control {
+  position: absolute;
+  right: 7.5px;
+  top: 55px;
+}
+
+.mapboxgl-popup > .mapboxgl-popup-content {
+  border-radius: 12px;
+  padding: 0;
+  box-shadow: 0 3px 14px rgba(0, 0, 0, 0.2);
+}
+
+.mapboxgl-popup > .mapboxgl-popup-content > div {
+  margin: 7px 10px;
+}

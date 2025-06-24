@@ -1,0 +1,97 @@
+{
+  "name": "assetView",
+  "version": "1.2.01",
+  "description": "Indoor-Outdoor Localization",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "react-scripts build",
+    "web": "react-scripts start",
+    "web:start": "cd packages/react-scripts && node bin/react-scripts.js start",
+    "web:dev": "react-scripts start --envfile ./.env.cloud",
+    "web:windows": "set PORT=5100 & react-scripts start .env.windows",
+    "web:test": "react-scripts test",
+    "web_eject": "react-scripts eject",
+    "watch": "npm-watch"
+  },
+  "watch": {
+    "build": {
+      "patterns": [
+        "public"
+      ],
+      "extensions": "html,css,js",
+      "quiet": false
+    }
+  },
+  "keywords": [
+    "microservices",
+    "moleculer"
+  ],
+  "author": "AssetFlo",
+  "devDependencies": {
+    "@types/react": "^17.0.85",
+    "@types/react-dom": "^17.0.26",
+    "@typescript-eslint/eslint-plugin": "^5.45.1",
+    "@typescript-eslint/parser": "^5.45.1",
+    "autoprefixer": "^10.4.21",
+    "babel-plugin-add-module-exports": "^0.1.2",
+    "babel-plugin-transform-object-assign": "^6.5.0",
+    "npm-watch": "^0.11.0",
+    "postcss": "^8.5.3",
+    "standardx": "7.0.0",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@emotion/react": "11.11.3",
+    "@emotion/styled": "11.11.0",
+    "@mapbox/mapbox-gl-geocoder": "5.0.1",
+    "@mapsindoors/components": "^13.18.0",
+    "@material-table/core": "0.2.62",
+    "@mui/icons-material": "5.15.6",
+    "@mui/lab": "5.0.0-alpha.109",
+    "@mui/material": "5.15.10",
+    "@mui/styles": "5.15.10",
+    "@mui/x-date-pickers": "6.19.3",
+    "@rematch/core": "1.2.0",
+    "@turf/turf": "6.5.0",
+    "@types/mapbox-gl": "2.7.19",
+    "array-sort": "1.0.0",
+    "axios": "1.8.2",
+    "bootstrap": "5.0.0",
+    "date-fns": "2.30.0",
+    "fuse.js": "3.4.5",
+    "html5-qrcode": "^2.3.8",
+    "leaflet": "1.0.1",
+    "lodash": "4.17.21",
+    "luxon": "^3.0.3",
+    "mapbox-gl": "1.13.1",
+    "moment": "2.29.4",
+    "moment-range": "4.0.2",
+    "notistack": "3.0.1",
+    "prop-types": "15.7.2",
+    "react": "17.0.2",
+    "react-chartjs-2": "2.11.1",
+    "react-dom": "17.0.2",
+    "react-full-screen": "1.1.1",
+    "react-hook-form": "6.15.5",
+    "react-map-gl": "7.1.7",
+    "react-redux": "7.2.6",
+    "react-resize-layout": "0.2.3",
+    "react-router-dom": "6.10.0",
+    "react-scripts": "5.0.1",
+    "react-spinners": "0.13.8",
+    "reactstrap": "9.1.8",
+    "sass": "1.60.0",
+    "supercluster": "7.1.5",
+    "viewport-mercator-project": "7.0.4",
+    "w-cluster": "^1.0.20",
+    "wrld.js": "0.1.2107"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ]
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=0" />
+    <meta name="description" content="Assetio.io Dashboard" />
+    <meta name="author" content="AssetFlo" />
+    <meta name="keyword" content="AssetFlo,Asset.io" />
+
+    <title>AssetFlo</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet" />
+
+    <script>
+      const popstateHandler = (e) => {
+        // console.log('popstateHandler clear storage');
+        window.localStorage.removeItem('displayedMap');
+        window.removeEventListener('popstate', popstateHandler);
+      };
+      if (typeof geotab !== 'undefined') {
+        geotab.addin.assetio = function (api, state) {
+          return {
+            initialize(api, state, callback) {
+              // console.log("init done", api);
+              // console.log('init done');
+              const addinState = state.getState();
+              // console.log("addinState", addinState)
+              addinState &&
+                addinState.displayedMap &&
+                window.localStorage.setItem('displayedMap', addinState.displayedMap);
+              window.addEventListener('popstate', popstateHandler);
+              // console.log('Geotab init')
+              const location = window.location;
+              if (window?.location?.host === 'my.geotab.com') {
+                const db = window.location.href.split('/')[3];
+                window.localStorage.setItem(`routerLocation_${db}`, 'mapbox');
+              }
+              callback();
+            },
+            focus() {
+              window.postMessage({ message: 'addin_focus' }, '*');
+              console.log('Focused!');
+            },
+
+            blur() {
+              window.postMessage({ message: 'addin_blur' }, '*');
+              console.log('Blurred!');
+            }
+          };
+        };
+      }
+    </script>
+    <script src="https://app.mapsindoors.com/mapsindoors/js/sdk/4.24.8/mapsindoors-4.24.8.js.gz"></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css" rel="stylesheet" />
+  </head>
+
+  <body id="assetflo-body">
+    <noscript> You need to enable JavaScript to run this app. </noscript>
+    <div id="assetflo-root"></div>
+  </body>
+</html>

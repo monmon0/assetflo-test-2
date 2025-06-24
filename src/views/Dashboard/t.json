@@ -1,0 +1,571 @@
+[
+  {
+    "assetName": "AssetTag-08fbc6fabb2f4d27b0d30f3318c78049",
+    "deviceId": "08fbc6fabb2f4d27b0d30f3318c78049",
+    "location": {
+      "lat": 43.743859378822556,
+      "lng": -79.76927650799612,
+      "alt": 5
+    },
+    "locators": [
+      {
+        "locatorId": "ABCDEFGHIJKL",
+        "coordinates": {
+          "lat": 43.743859378822556,
+          "lng": -79.76927650799612,
+          "alt": 5
+        },
+        "distance": 7.592912623994642
+      }
+    ],
+    "metrics": {
+      "deviceId": "08fbc6fabb2f4d27b0d30f3318c78049",
+      "workHours": 700926,
+      "utilization": 0.012149146605675325,
+      "totalWorkHours": 10880294,
+      "totalUtilization": 0.0031288153810347264,
+      "totalShifts": 3477448387,
+      "liftCycle": 10,
+      "totalLifts": 10000,
+      "updatedAt": 1574456493441
+    },
+    "locTime": 1574456532217,
+    "deviceType": "Tag",
+    "telemetry": {
+      "version": 1,
+      "txPower": -48,
+      "connectable": true,
+      "batterylevel": 3,
+      "temperature": 21,
+      "isMoving": true,
+      "acceleration": {
+        "x": 0.0013419999999999999,
+        "y": 0.001464,
+        "z": 0.001586
+      },
+      "pressure": 5653,
+      "cAlt": 23,
+      "rotation": {}
+    },
+    "icon": "tagIcon",
+    "updatedAt": 1574456532218
+  },
+  {
+    "assetName": "AssetTag-2e0970f966e943e782570efe098b6467",
+    "deviceId": "2e0970f966e943e782570efe098b6467",
+    "location": {
+      "lat": 43.743859378822556,
+      "lng": -79.76927650799612,
+      "alt": 5
+    },
+    "locators": [
+      {
+        "locatorId": "ABCDEFGHIJKL",
+        "coordinates": {
+          "lat": 43.743859378822556,
+          "lng": -79.76927650799612,
+          "alt": 5
+        },
+        "distance": 8.491827879026335
+      }
+    ],
+    "metrics": {
+      "deviceId": "2e0970f966e943e782570efe098b6467",
+      "workHours": 0,
+      "utilization": 0,
+      "totalWorkHours": 0,
+      "totalUtilization": 0,
+      "totalShifts": 2851624342,
+      "liftCycle": 10,
+      "totalLifts": 10000,
+      "updatedAt": 1574456532882
+    },
+    "locTime": 1574456536790,
+    "deviceType": "Tag",
+    "telemetry": {
+      "version": 1,
+      "txPower": -48,
+      "connectable": true,
+      "batterylevel": 3,
+      "temperature": 21,
+      "isMoving": false,
+      "acceleration": {
+        "x": 0.0013419999999999999,
+        "y": 0.001464,
+        "z": 0.001586
+      },
+      "pressure": 33537,
+      "cAlt": 41,
+      "rotation": {}
+    },
+    "icon": "tagIcon",
+    "updatedAt": 1574456536790
+  },
+  {
+    "assetName": "AssetTag-333bb25ecfd0",
+    "deviceId": "333bb25ecfd0",
+    "location": {
+      "lat": 43.74376982449354,
+      "lng": -79.76934903617261,
+      "alt": 1
+    },
+    "locators": [
+      {
+        "locatorId": "d2e16ed76b08",
+        "coordinates": {
+          "lat": 43.74376982449354,
+          "lng": -79.76934903617261,
+          "alt": 1
+        },
+        "distance": 13.098262370143818
+      }
+    ],
+    "metrics": {
+      "deviceId": "333bb25ecfd0",
+      "workHours": 29162,
+      "utilization": 0.0004906025767856456,
+      "totalWorkHours": -881545,
+      "totalUtilization": -0.000020503908236378436,
+      "totalShifts": 42993998502,
+      "liftCycle": 10,
+      "totalLifts": 10000,
+      "updatedAt": 1575408641261
+    },
+    "locTime": 1575408642189,
+    "deviceType": "Tag",
+    "telemetry": {
+      "version": 1,
+      "txPower": -48,
+      "connectable": true,
+      "batterylevel": 3,
+      "temperature": 21,
+      "isMoving": true,
+      "acceleration": {
+        "x": 0.0013419999999999999,
+        "y": 0.001464,
+        "z": 0.001586
+      },
+      "pressure": 32257,
+      "cAlt": -97,
+      "rotation": {}
+    },
+    "icon": "tagIcon",
+    "updatedAt": 1575408642190
+  },
+  {
+    "assetName": "AssetTag-76e46ed76b08",
+    "deviceId": "76e46ed76b08",
+    "location": {
+      "lat": 43.74376982449354,
+      "lng": -79.76934903617261,
+      "alt": 1
+    },
+    "locators": [
+      {
+        "locatorId": "d2e16ed76b08",
+        "coordinates": {
+          "lat": 43.74376982449354,
+          "lng": -79.76934903617261,
+          "alt": 1
+        },
+        "distance": 0.15739166695652898
+      }
+    ],
+    "metrics": {
+      "deviceId": "76e46ed76b08",
+      "workHours": 24877,
+      "utilization": 0.0004100898961824879,
+      "totalWorkHours": 4370723,
+      "totalUtilization": 0.000033367173368064344,
+      "totalShifts": 130988710125,
+      "liftCycle": 10,
+      "totalLifts": 10000,
+      "updatedAt": 1575409862312
+    },
+    "locTime": 1575409863912,
+    "deviceType": "Tag",
+    "telemetry": {
+      "version": 1,
+      "txPower": -48,
+      "connectable": true,
+      "batterylevel": 3,
+      "temperature": 21,
+      "isMoving": false,
+      "acceleration": {
+        "x": 0.0013419999999999999,
+        "y": 0.001464,
+        "z": 0.001586
+      },
+      "pressure": 32257,
+      "cAlt": 2,
+      "rotation": {}
+    },
+    "icon": "tagIcon",
+    "updatedAt": 1575409863913
+  },
+  {
+    "assetName": "AssetTag-7fe190ea4a88",
+    "deviceId": "7fe190ea4a88",
+    "location": {
+      "lat": 43.74376982449354,
+      "lng": -79.76934903617261,
+      "alt": 1
+    },
+    "locators": [
+      {
+        "locatorId": "d2e16ed76b08",
+        "coordinates": {
+          "lat": 43.74376982449354,
+          "lng": -79.76934903617261,
+          "alt": 1
+        },
+        "distance": 0.5898397425292522
+      }
+    ],
+    "metrics": {
+      "deviceId": "7fe190ea4a88",
+      "workHours": 10145173,
+      "utilization": 0.16723692193305903,
+      "totalWorkHours": 2957781273,
+      "totalUtilization": 0.0922351573367089,
+      "totalShifts": 32067829214,
+      "liftCycle": 10,
+      "totalLifts": 10000,
+      "updatedAt": 1575409863502
+    },
+    "locTime": 1575409864305,
+    "deviceType": "Tag",
+    "telemetry": {
+      "version": 1,
+      "txPower": -48,
+      "connectable": true,
+      "batterylevel": 3,
+      "temperature": 21,
+      "isMoving": true,
+      "acceleration": {
+        "x": 0.0013419999999999999,
+        "y": 0.001464,
+        "z": 0.001586
+      },
+      "pressure": 5653,
+      "cAlt": 23,
+      "rotation": {}
+    },
+    "icon": "tagIcon",
+    "updatedAt": 1575409864305
+  },
+  {
+    "assetName": "AssetTag-b737fb01de9b40d6ab2852fd303eb4fa",
+    "deviceId": "b737fb01de9b40d6ab2852fd303eb4fa",
+    "location": {
+      "lat": 43.743859378822556,
+      "lng": -79.76927650799612,
+      "alt": 5
+    },
+    "locators": [
+      {
+        "locatorId": "ABCDEFGHIJKL",
+        "coordinates": {
+          "lat": 43.743859378822556,
+          "lng": -79.76927650799612,
+          "alt": 5
+        },
+        "distance": 8.46433642368765
+      }
+    ],
+    "metrics": {
+      "deviceId": "b737fb01de9b40d6ab2852fd303eb4fa",
+      "workHours": 769999,
+      "utilization": 0.013344206738562804,
+      "totalWorkHours": 12308260,
+      "totalUtilization": 0.003994950987167369,
+      "totalShifts": 3080953944,
+      "liftCycle": 10,
+      "totalLifts": 10000,
+      "updatedAt": 1574456502869
+    },
+    "locTime": 1574456539068,
+    "deviceType": "Tag",
+    "telemetry": {
+      "version": 1,
+      "txPower": -48,
+      "connectable": true,
+      "batterylevel": 3,
+      "temperature": 21,
+      "isMoving": true,
+      "acceleration": {
+        "x": 0.0013419999999999999,
+        "y": 0.001464,
+        "z": 0.001586
+      },
+      "pressure": 5653,
+      "cAlt": 23,
+      "rotation": {}
+    },
+    "icon": "tagIcon",
+    "updatedAt": 1574456539070
+  },
+  {
+    "assetName": "AssetTag-b845b959c37d40fd92c437240a5edc43",
+    "deviceId": "b845b959c37d40fd92c437240a5edc43",
+    "location": {
+      "lat": 43.743859378822556,
+      "lng": -79.76927650799612,
+      "alt": 5
+    },
+    "locators": [
+      {
+        "locatorId": "ABCDEFGHIJKL",
+        "coordinates": {
+          "lat": 43.743859378822556,
+          "lng": -79.76927650799612,
+          "alt": 5
+        },
+        "distance": 17.174353901175472
+      }
+    ],
+    "metrics": {
+      "deviceId": "b845b959c37d40fd92c437240a5edc43",
+      "workHours": 0,
+      "utilization": 0,
+      "totalWorkHours": 0,
+      "totalUtilization": 0,
+      "totalShifts": 3872225838,
+      "liftCycle": 10,
+      "totalLifts": 10000,
+      "updatedAt": 1574456491123
+    },
+    "locTime": 1574456496008,
+    "deviceType": "Tag",
+    "telemetry": {
+      "version": 1,
+      "txPower": -48,
+      "connectable": true,
+      "batterylevel": 3,
+      "temperature": 21,
+      "isMoving": false,
+      "acceleration": {
+        "x": 0.0013419999999999999,
+        "y": 0.001464,
+        "z": 0.001586
+      },
+      "pressure": 32769,
+      "cAlt": -35,
+      "rotation": {}
+    },
+    "icon": "tagIcon",
+    "updatedAt": 1574456496010
+  },
+  {
+    "assetName": "AssetTag-b84c6bd76b08",
+    "deviceId": "b84c6bd76b08",
+    "location": {
+      "lat": 43.74376982449354,
+      "lng": -79.76934903617261,
+      "alt": 1
+    },
+    "locators": [
+      {
+        "locatorId": "d2e16ed76b08",
+        "coordinates": {
+          "lat": 43.74376982449354,
+          "lng": -79.76934903617261,
+          "alt": 1
+        },
+        "distance": 0.07596842422200514
+      }
+    ],
+    "metrics": {
+      "deviceId": "b84c6bd76b08",
+      "workHours": -218459,
+      "utilization": -0.0036011988489694203,
+      "totalWorkHours": 1065534379,
+      "totalUtilization": 0.006073742076617606,
+      "totalShifts": 175432931718,
+      "liftCycle": 10,
+      "totalLifts": 10000,
+      "updatedAt": 1575409862855
+    },
+    "locTime": 1575409863511,
+    "deviceType": "Tag",
+    "telemetry": {
+      "version": 1,
+      "txPower": -48,
+      "connectable": true,
+      "batterylevel": 3,
+      "temperature": 21,
+      "isMoving": false,
+      "acceleration": {
+        "x": 0.0013419999999999999,
+        "y": 0.001464,
+        "z": 0.001586
+      },
+      "pressure": 32257,
+      "cAlt": 68,
+      "rotation": {}
+    },
+    "icon": "tagIcon",
+    "updatedAt": 1575409863511
+  },
+  {
+    "assetName": "AssetTag-c0937908d5d64aa989fe9f33ec9cbc8a",
+    "deviceId": "c0937908d5d64aa989fe9f33ec9cbc8a",
+    "location": {
+      "lat": 43.743859378822556,
+      "lng": -79.76927650799612,
+      "alt": 5
+    },
+    "locators": [
+      {
+        "locatorId": "ABCDEFGHIJKL",
+        "coordinates": {
+          "lat": 43.743859378822556,
+          "lng": -79.76927650799612,
+          "alt": 5
+        },
+        "distance": 7.6925295977789325
+      }
+    ],
+    "metrics": {
+      "deviceId": "c0937908d5d64aa989fe9f33ec9cbc8a",
+      "workHours": 0,
+      "utilization": 0,
+      "totalWorkHours": 0,
+      "totalUtilization": 0,
+      "totalShifts": 4215803535,
+      "liftCycle": 10,
+      "totalLifts": 10000,
+      "updatedAt": 1574456537150
+    },
+    "locTime": 1574456539103,
+    "deviceType": "Tag",
+    "telemetry": {
+      "version": 1,
+      "txPower": -48,
+      "connectable": true,
+      "batterylevel": 3,
+      "temperature": 21,
+      "isMoving": false,
+      "acceleration": {
+        "x": 0.0013419999999999999,
+        "y": 0.001464,
+        "z": 0.001586
+      },
+      "pressure": 33537,
+      "cAlt": 2,
+      "rotation": {}
+    },
+    "icon": "tagIcon",
+    "updatedAt": 1574456539103
+  },
+  {
+    "assetName": "aaaaa",
+    "deviceId": "c54c6bd76b08",
+    "location": {
+      "lat": 43.74376381838987,
+      "lng": -79.76972784267265
+    },
+    "locators": [
+      {
+        "locatorId": "d44c6bd76b08",
+        "coordinates": {
+          "lat": 43.74376381838987,
+          "lng": -79.76972784267265
+        },
+        "distance": 11.702064995325257
+      }
+    ],
+    "metrics": {
+      "deviceId": "c54c6bd76b08",
+      "workHours": 0,
+      "utilization": 0,
+      "totalWorkHours": 0,
+      "totalUtilization": 0,
+      "totalShifts": 46249409560,
+      "liftCycle": 10,
+      "totalLifts": 10000,
+      "updatedAt": 1574708069240
+    },
+    "locTime": 1574708080957,
+    "deviceType": "Tag",
+    "telemetry": {
+      "version": 1,
+      "txPower": -48,
+      "connectable": true,
+      "batterylevel": 3,
+      "temperature": 21,
+      "isMoving": false,
+      "acceleration": {
+        "x": 0.0013419999999999999,
+        "y": 0.001464,
+        "z": 0.001586
+      },
+      "pressure": 32769,
+      "cAlt": -35,
+      "rotation": {}
+    },
+    "icon": "tagIcon",
+    "updatedAt": 1574708080961
+  },
+  {
+    "assetName": "TEST LOCATO",
+    "deviceId": "ABCDEFGHIJKL",
+    "deviceType": "Locator",
+    "status": "Active",
+    "icon": "locatorIcon",
+    "location": {
+      "lat": 43.74386056630971,
+      "lng": -79.76963237028798
+    },
+    "updatedAt": 1574794845574
+  },
+  {
+    "assetName": "PI 1211",
+    "deviceId": "a2506bd76b08",
+    "status": "Active",
+    "icon": "locatorIcon",
+    "location": {
+      "lat": 43.743588,
+      "lng": -79.768883,
+      "alt": 1
+    },
+    "updatedAt": 1574779817719
+  },
+  {
+    "assetName": "PI-122",
+    "deviceId": "bf506bd76b08",
+    "status": "Active",
+    "icon": "locatorIcon",
+    "location": {
+      "lat": 43.7437,
+      "lng": -79.768871,
+      "alt": 1
+    },
+    "updatedAt": 1574441439839
+  },
+  {
+    "assetName": "Locator-Pack",
+    "deviceId": "d2e16ed76b08",
+    "deviceType": "Locator",
+    "status": "Active",
+    "icon": "locatorIcon",
+    "location": {
+      "lat": 43.74376982449354,
+      "lng": -79.76934903617261,
+      "alt": 1
+    },
+    "updatedAt": 1575335903033
+  },
+  {
+    "assetName": "PC LOCATOR",
+    "deviceId": "d44c6bd76b08",
+    "deviceType": "Locator",
+    "status": "Active",
+    "icon": "locatorIcon",
+    "location": {
+      "lat": 43.68427985742207,
+      "lng": -79.76011972395578
+    },
+    "updatedAt": 1575335131547
+  }
+]
